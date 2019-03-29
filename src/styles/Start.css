@@ -1,0 +1,397 @@
+div.start {
+    position: absolute;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #000;
+    box-shadow: 0 0 26px 10px #000;
+    border-radius: 10%;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    padding: 1%;
+    font-family: 10px;
+    background-color: rgb(53, 53, 53);
+    color: #fff;
+}
+
+div.start h1,
+div.start h2,
+div.start button.start_draw,
+div.users span {
+    text-transform: uppercase;
+    font-family: 'Righteous', cursive;
+    text-shadow: 0 0 15px #000;
+}
+
+div.players,
+div.users {
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+div.players button,
+div.users button {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+div.players span,
+div.users span {
+    display: block;
+    width: 12%;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+div.start button.start_draw {
+    position: absolute;
+    display: block;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 20%;
+    background-color: #777;
+    border: 6px solid #000;
+    border-radius: 20px;
+    color: #fff;
+    transition: .4s;
+}
+
+@media (orientation: landscape) {
+    div.start {
+        width: 50vh;
+        height: 50vh;
+    }
+
+    div.start h1 {
+        font-size: 4rem;
+    }
+
+    div.start h2 {
+        padding-top: 5%;
+        font-size: 3rem;
+    }
+
+    div.players button,
+    div.users button {
+        font-size: 2.5rem;
+    }
+
+    div.players span,
+    div.users span {
+        font-size: 2.5rem;
+    }
+
+    div.start button.start_draw {
+        font-size: 3rem;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 850px) {
+    div.start {
+        width: 60vh;
+        height: 60vh;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 710px) {
+    div.start {
+        width: 65vh;
+        height: 65vh;
+    }
+
+    div.start h1 {
+        font-size: 3rem;
+    }
+
+    div.start h2 {
+        padding-top: 5%;
+        font-size: 2.5rem;
+    }
+
+    div.players button,
+    div.users button {
+        font-size: 2.5rem;
+    }
+
+    div.players span,
+    div.users span {
+        font-size: 2.5rem;
+    }
+
+    div.start button.start_draw {
+        font-size: 2rem;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 520px) {
+    div.start {
+        width: 80vh;
+        height: 80vh;
+        min-width: 300px;
+        min-height: 300px;
+    }
+
+    div.start h1 {
+        font-size: 3rem;
+    }
+
+    div.start h2 {
+        padding-top: 5%;
+        font-size: 2rem;
+    }
+
+    div.players button,
+    div.users button {
+        font-size: 2.5rem;
+    }
+
+    div.players span,
+    div.users span {
+        font-size: 2.5rem;
+    }
+
+    div.start button.start_draw {
+        font-size: 2rem;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 410px) {
+    div.start {
+        width: 90vh;
+        height: 90vh;
+    }
+
+    div.start h1 {
+        font-size: 2.5rem;
+    }
+
+    div.start h2 {
+        padding-top: 5%;
+        font-size: 2rem;
+    }
+
+    div.players button,
+    div.users button {
+        font-size: 2.5rem;
+    }
+
+    div.players span,
+    div.users span {
+        font-size: 2.5rem;
+    }
+
+    div.start button.start_draw {
+        font-size: 2rem;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 240px) {
+    div.start {
+        min-width: 200px;
+        min-height: 200px;
+    }
+
+    div.start h1 {
+        font-size: 2rem;
+    }
+
+    div.start h2 {
+        padding-top: 5%;
+        font-size: 1.5rem;
+    }
+
+    div.players button,
+    div.users button {
+        font-size: 1.5rem;
+    }
+
+    div.players span,
+    div.users span {
+        font-size: 1.5rem;
+    }
+
+    div.start button.start_draw {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (orientation: portrait) {
+    div.start {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    div.start h1 {
+        font-size: 4rem;
+    }
+
+    div.start h2 {
+        padding-top: 5%;
+        font-size: 3rem;
+    }
+
+    div.players button,
+    div.users button {
+        font-size: 3rem;
+    }
+
+    div.players span,
+    div.users span {
+        font-size: 3rem;
+    }
+
+    div.start button.start_draw {
+        font-size: 3rem;
+    }
+}
+
+
+@media (orientation: portrait) and (max-width: 870px) {
+    div.start {
+        width: 60vw;
+        height: 60vw;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 700px) {
+    div.start {
+        width: 70vw;
+        height: 70vw;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 590px) {
+    div.start {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    div.start h1 {
+        font-size: 3rem;
+    }
+
+    div.start h2 {
+        padding-top: 5%;
+        font-size: 2.5rem;
+    }
+
+    div.players button,
+    div.users button {
+        font-size: 3rem;
+    }
+
+    div.players span,
+    div.users span {
+        font-size: 3rem;
+    }
+
+    div.start button.start_draw {
+        font-size: 3rem;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 450px) {
+    div.start {
+        width: 90vw;
+        height: 90vw;
+    }
+
+    div.start h1 {
+        font-size: 2.5rem;
+    }
+
+    div.start h2 {
+        padding-top: 5%;
+        font-size: 2.5rem;
+    }
+
+    div.players button,
+    div.users button {
+        font-size: 2.5rem;
+    }
+
+    div.players span,
+    div.users span {
+        font-size: 2.5rem;
+    }
+
+    div.start button.start_draw {
+        font-size: 2.5rem;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 350px) {
+    div.start {
+        max-width: 470px;
+        max-height: 470px;
+    }
+
+    div.start h1 {
+        font-size: 2.5rem;
+    }
+
+    div.start h2 {
+        padding-top: 5%;
+        font-size: 2rem;
+    }
+
+    div.players button,
+    div.users button {
+        font-size: 2rem;
+    }
+
+    div.players span,
+    div.users span {
+        font-size: 2rem;
+    }
+
+    div.start button.start_draw {
+        font-size: 2rem;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 300px) {
+
+    div.start h1 {
+        font-size: 2rem;
+    }
+
+    div.start h2 {
+        padding-top: 5%;
+        font-size: 1.5rem;
+    }
+
+    div.players button,
+    div.users button {
+        font-size: 1.5rem;
+    }
+
+    div.players span,
+    div.users span {
+        font-size: 1.5rem;
+    }
+
+    div.start button.start_draw {
+        font-size: 1.5rem;
+    }
+}
+
+div.players button:hover,
+div.users button:hover {
+    color: #777;
+}
+
+div.start button.start_draw:hover {
+    background-color: #aaa;
+    box-shadow: 0 0 10px 2px #777;
+}

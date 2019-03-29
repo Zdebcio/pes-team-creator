@@ -1,0 +1,43 @@
+.positions_card {
+    position: absolute;
+    right: 70%;
+    bottom: 61%;
+    transform: translateX(50%);
+    width: 28%;
+    height: 26%;
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    background-color: #000;
+}
+
+.positions_card div {
+    box-sizing: border-box;
+    text-align: center;
+    margin: .5px;
+    opacity: .4;
+    text-transform: uppercase;
+}
+
+.positions_card div.playable {
+    opacity: 1;
+}
+
+@media (max-width: 1000px) {
+    .positions_card {
+        bottom: 63.5%;
+        width: 28%;
+        height: 29%;
+        right: 68%;
+    }
+}
+
+@media (max-width: 360px) {
+    .positions_card {
+        bottom: 63%;
+        width: 29%;
+        height: 27%;
+        right: 68%;
+    }
+}

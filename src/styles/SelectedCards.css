@@ -1,0 +1,89 @@
+div.actual_cards {
+    position: fixed;
+    box-sizing: border-box;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000;
+    width: 100%;
+    height: 375px;
+    border-top: 10px solid #fff;
+}
+
+div.cards {
+    width: 1000px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div.actual_cards h2 {
+    text-align: center;
+    color: #fff;
+    font-family: "Righteous", cursive;
+}
+
+div.actual_cards .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.actual_cards button.next_step {
+    position: relative;
+    display: block;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 80px;
+    background-color: transparent;
+    border: 5px solid #666;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+    color: #666;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div.actual_cards button.next_step.active {
+    position: relative;
+    display: block;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 80px;
+    background-color: transparent;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+    color: #fff;
+    transition: .4s;
+    text-decoration: none;
+}
+
+
+div.actual_cards button.next_step.active:hover {
+    border-color: #000;
+    color: #000;
+    background-color: #aaa;
+}
+
+@media (max-width: 1000px) {
+    div.actual_cards {
+        padding: 1vh;
+        height: auto;
+    }
+
+    div.cards {
+        width: 100vw;
+        height: auto;
+    }
+
+    div.actual_cards button.next_step {
+        font-size: 3vh;
+    }
+}

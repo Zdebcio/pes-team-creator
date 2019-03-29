@@ -1,0 +1,21 @@
+.user_card {
+    background: red;
+    display: inline-block;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 55px;
+    position: relative;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: arial;
+    font-weight: bold;
+    box-shadow: 0 0 0 4px #403317;
+}
+
+.user_card h3 {
+    background-color: #403317;
+    padding: 2% 0;
+    color: #FFCB5B;
+}

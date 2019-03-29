@@ -1,0 +1,13 @@
+
+
+.container {
+    padding-top: 70px;
+    left: 0;
+    min-height: calc(100vh - 120px - 85vh);
+}
+
+.loading_data {
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-size: 5vw;
+}

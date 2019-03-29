@@ -1,0 +1,39 @@
+div.card {
+    position: relative;
+    font-family: arial;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+div.card img {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+div.card.active {
+    opacity: .3;
+}
+
+@media (orientation: landscape) {
+    div.card {
+        width: 12vh;
+        height: 15vh;
+    }
+}
+
+@media (orientation: portrait) {
+    div.card {
+        width: 12vw;
+        height: 15vw;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 360) {
+    div.card {
+        width: 14vw;
+        height: 17.5vw;
+    }
+}

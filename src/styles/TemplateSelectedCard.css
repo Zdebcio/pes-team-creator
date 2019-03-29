@@ -1,0 +1,178 @@
+.actual_card {
+    position: relative;
+    font-family: arial;
+    text-align: center;
+    cursor: pointer;
+}
+
+.actual_card img.card_background {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+div.active_symbol i {
+    position: relative;
+    font-size: 30px;
+    top: 20px;
+    left: 0;
+    color: skyblue;
+    text-shadow: 0 0 4px #000;
+    z-index: 1;
+}
+
+.actual_card img.face {
+    width: 37%;
+    position: absolute;
+    right: 15%;
+    bottom: 60%;
+}
+
+.actual_card img.club {
+    width: 17%;
+    position: absolute;
+    right: 70%;
+    transform: translateX(50%);
+    bottom: 36%;
+}
+
+.actual_card img.country {
+    width: 16%;
+    position: absolute;
+    right: 30%;
+    transform: translateX(50%);
+    bottom: 36%;
+}
+
+.actual_card span.hisPosition {
+    width: 25%;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 12%;
+    font-size: 110%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.actual_card h3 {
+    width: 100%;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 53.5%;
+    color: black;
+    font-size: 80%;
+}
+
+.actual_card span.ovr {
+    width: 100%;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 20%;
+    font-size: 250%;
+    font-weight: bold;
+}
+
+@media (min-width: 1001px) {
+    .actual_card {
+        width: 200px;
+        height: 267px;
+    }
+
+    div.active_symbol i {
+        font-size: 30px;
+        top: 20px;
+    }
+
+    .actual_card span.hisPosition {
+        font-size: 1.7rem;
+    }
+
+    .actual_card h3 {
+        font-size: 1.2rem;
+    }
+
+    .actual_card span.ovr {
+        font-size: 4.2rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .actual_card {
+        width: 16vh;
+        height: 20.5vh;
+    }
+
+    div.active_symbol i {
+        font-size: 30px;
+        top: 0.6vh;
+    }
+
+    .actual_card span.hisPosition {
+        font-size: 1.6vh;
+        bottom: 12%;
+    }
+
+    .actual_card h3 {
+        font-size: 1.2vh;
+        bottom: 11.3vh;
+    }
+
+    .actual_card span.ovr {
+        font-size: 4vh;
+        bottom: 19%;
+    }
+
+    .actual_card img.face {
+        bottom: 62.8%;
+    }
+
+    .actual_card img.club {
+        bottom: 40%;
+        width: 17%;
+    }
+
+    .actual_card img.country {
+        bottom: 40%;
+        width: 17%;
+    }
+}
+
+@media (max-width: 360px) {
+    .actual_card {
+        width: 16vh;
+        height: 20.79vh;
+    }
+
+    div.active_symbol i {
+        font-size: 23px;
+    }
+
+    .actual_card span.hisPosition {
+        font-size: 1.4vh;
+    }
+
+    .actual_card h3 {
+        font-size: 1.3vh;
+        bottom: 11.2vh;
+    }
+
+    .actual_card span.ovr {
+        font-size: 4vh;
+    }
+
+    .actual_card img.face {
+        bottom: 62%;
+    }
+
+    .actual_card img.club {
+        bottom: 38%;
+    }
+
+    .actual_card img.country {
+        bottom: 38%;
+    }
+}

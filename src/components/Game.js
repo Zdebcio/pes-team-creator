@@ -198,7 +198,8 @@ class Game extends React.Component {
     roundsToEnd: this.props.rounds,
     isDrawStarted: false,
     areCardsOpened: false,
-    isCardSelected: false
+    isCardSelected: false,
+    numberOfCards: 0
   };
 
   componentDidMount() {
@@ -283,22 +284,15 @@ class Game extends React.Component {
 
     this.setState({
       playersFilterAndRandom,
-      selectedPlayers
+      selectedPlayers,
+      numberOfCards
     });
   };
 
   handleOpenCardsClick = () => {
-    const playersFilterAndRandom = [];
-    let numberOfCards = 0;
-    if (this.state.playersFilterAndRandom.length >= 5) {
-      numberOfCards = 5;
-    } else if (this.state.playersFilterAndRandom.length < 5) {
-      numberOfCards = this.state.playersFilterAndRandom.length;
-    }
-    if (this.state.selectedPlayers.length === numberOfCards) {
+    if (this.state.selectedPlayers.length === this.state.numberOfCards) {
       this.setState({
-        areCardsOpened: true,
-        playersFilterAndRandom
+        areCardsOpened: true
       });
     }
   };
@@ -432,6 +426,7 @@ class Game extends React.Component {
             takeCard={this.handleTakeSelectedCardClick}
             isCardSelected={this.state.isCardSelected}
             newDraw={this.handleStartNewDrawClick}
+            numberOfCards={this.state.numberOfCards}
           />
         )}
       </>

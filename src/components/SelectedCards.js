@@ -8,16 +8,32 @@ class SelectedCards extends React.Component {
     selectedPlayers: this.props.selectedPlayers
   };
 
+  handleSelectedCardClick = selectedPlayers => {
+    selectedPlayers = selectedPlayers.filter(player => player.isSelected);
+    if (selectedPlayers.length === 1) {
+      return selectedPlayers;
+    }
+  };
+
   cards = () => {
     if (!this.props.areCardsOpened) {
       return (
-        <button className="next_step active" onClick={this.props.openCards}>
+        <button
+          className={`next_step ${this.state.selectedPlayers.length ===
+            this.props.numberOfCards && "active"}`}
+          onClick={this.props.openCards}
+        >
           Zaakceptuj
         </button>
       );
     } else if (this.props.areCardsOpened && !this.props.isCardSelected) {
       return (
-        <button className="next_step active" onClick={this.props.takeCard}>
+        <button
+          className={`next_step ${this.handleSelectedCardClick(
+            this.state.selectedPlayers
+          ) && "active"}`}
+          onClick={this.props.takeCard}
+        >
           Wybierz kartę
         </button>
       );

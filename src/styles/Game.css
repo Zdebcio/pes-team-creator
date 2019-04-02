@@ -1,5 +1,3 @@
-
-
 .container {
     padding-top: 70px;
     left: 0;
@@ -9,5 +7,6 @@
 .loading_data {
     font-family: 'Righteous', cursive;
     text-align: center;
+    color: #fff;
     font-size: 5vw;
 }

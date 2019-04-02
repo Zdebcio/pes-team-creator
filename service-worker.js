@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pes-team-creator/precache-manifest.184163209707bad3f54d63eefb7d7808.js"
+  "/pes-team-creator/precache-manifest.cba48c11db0f4be8e79aa4b269d05611.js"
 );
 
 workbox.clientsClaim();

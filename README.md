@@ -24,9 +24,9 @@ The purpose of the project was to practice my React skills and realize my origin
 
 ---
 
-![Screenshot nr 1](./screenshot/sc1.jpg)
-![Screenshot nr 2](./screenshot/sc2.jpg)
-![Screenshot nr 3](./screenshot/sc3.jpg)
+![Screenshot nr 1](./screenhots/sc1.jpg)
+![Screenshot nr 2](./screenhots/sc2.jpg)
+![Screenshot nr 3](./screenhots/sc3.jpg)
 
 ## Technologies
 

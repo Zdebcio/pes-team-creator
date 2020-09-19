@@ -1,68 +1,60 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# PES Team Creator
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+**PES Team Creator is a app based on React where you can build team in Pro Evolution Soccer using players cards which you drawn.**
 
-### `npm start`
+## Table of contents
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+- [General info](#general-info)
+- [Screenshots](#screenshots)
+- [Technologies](#technologies)
+- [Installation and Setup Instructions](#installation-and-setup-instructions)
+- [License](#license)
 
-### `npm test`
+## General info
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+The purpose of the project was to practice my React skills and realize my original idea. This app was inspired by pages like [Futhead](https://www.futhead.com) or [Futbin](https://www.futbin.com) where you can open FIFA packs with players. Difference is that I used Pro Evolution Soccer 2019 players and statistics (with [Pesgalaxy mod](https://pesgalaxy.com)). Some rules are totaly different that in FIFA and FIFA based sites.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot nr 1](./screenshot/sc1.jpg)
+![Screenshot nr 2](./screenshot/sc2.jpg)
+![Screenshot nr 3](./screenshot/sc3.jpg)
 
-### `npm run eject`
+## Technologies
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- HTML
+- CSS
+- JavaScript - ES6+
+- React - version 16.8.3
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Installation and Setup Instructions
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Live demo: https://zdebcio.github.io/pes-team-creator/**
 
-## Learn More
+Clone or download this repository. You will need **node** and **npm** installed globally on your machine.
+[Download node (includes npm)](https://nodejs.org/en/download/).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Installation:
+`npm install`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To Start Server:
+`npm start`
 
-### Code Splitting
+To Visit App:
+`localhost:3000`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## License
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+App created for educational purposes. It's totaly free to use and modify.
